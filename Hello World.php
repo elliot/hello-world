@@ -1,5 +1,7 @@
 <?php
 
+## Requires PHP 5.3
+
 array_map ( function ( $seed, $fill )
             {
                 mt_srand ( $seed );
